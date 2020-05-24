@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:100vh;
+
+   }
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef ;
+    text-transform: uppercase;
+    
+}
+.logo{
+  height: 48px;
+  padding: 2px 10px;  
+}
+.icon-bar{
+    background: darkorange;
+}
+li a {
+    color: black;
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color:turquoise ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid turquoise;
+ background:turquoise;
+ color:#fff;
+}
+.header{
+ background-image:url('/Users/test1/Desktop/OpenHacks/back.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+#button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+a {
+    display: -ms-inline-flexbox;
+    width: 5%;
+    line-height: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
